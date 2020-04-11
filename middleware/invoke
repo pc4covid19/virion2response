@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C "start_jupyter -A -T @tool virion2response.ipynb" -t virion2response -u anaconda3-5.1
